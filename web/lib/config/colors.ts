@@ -34,7 +34,10 @@ export const modelColors: Record<string, string> = {
 
   // Speechmatics STT
   enhanced: "#3498DB",
-  default: "#21618C"
+  default: "#21618C",
+
+  // xAI STT & TTS
+  Grok: "#E8E8E8"
 };
 
 export const providerColors: Record<string, string> = {
@@ -45,5 +48,6 @@ export const providerColors: Record<string, string> = {
   AssemblyAI: "#8E44AD",
   Speechmatics: "#21618C",
   Rime: "#27AE60",
-  Gradium: "#1ABC9C"
+  Gradium: "#1ABC9C",
+  xAI: "#E8E8E8"
 };

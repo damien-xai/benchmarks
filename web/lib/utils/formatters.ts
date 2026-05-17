@@ -73,6 +73,7 @@ export function normalizeModelName(modelName: string): string {
     scribe_v2_realtime: "Scribe v2",
     "universal-streaming": "Universal Streaming",
     default: "Default",
+    Grok: "Grok",
     enhanced: "Enhanced"
   };
 
@@ -104,7 +105,8 @@ export function normalizeSTTProviderName(providerName: string): string {
     deepgram: "Deepgram",
     elevenlabs: "ElevenLabs",
     gradium: "Gradium",
-    speechmatics: "Speechmatics"
+    speechmatics: "Speechmatics",
+    xai: "xAI"
   };
 
   const lower = providerName.toLowerCase();
@@ -119,7 +121,8 @@ export function normalizeTTSProviderName(providerName: string): string {
     gradium: "Gradium",
     hume: "Hume",
     openai: "OpenAI",
-    rime: "Rime"
+    rime: "Rime",
+    xai: "xAI"
   };
 
   const lower = providerName.toLowerCase();

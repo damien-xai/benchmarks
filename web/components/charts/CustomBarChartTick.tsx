@@ -25,7 +25,8 @@ const normalizeModelName = (modelName: string): string => {
     scribe_v2_realtime: "Scribe v2",
     "universal-streaming": "Universal Streaming",
     default: "Default",
-    enhanced: "Enhanced"
+    enhanced: "Enhanced",
+    Grok: "Grok"
   };
 
   // Return mapped name if it exists

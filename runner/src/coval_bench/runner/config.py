@@ -39,6 +39,7 @@ DEFAULT_STT_MATRIX: list[ProviderEntry] = [
     ProviderEntry(provider="speechmatics", model="default", enabled=True),
     ProviderEntry(provider="speechmatics", model="enhanced", enabled=True),
     ProviderEntry(provider="gradium", model="default", enabled=True),
+    ProviderEntry(provider="xai", model="Grok", enabled=True),
     # OFF; disabled=True hides these from the public catalogue.
     ProviderEntry(provider="google", model="short", enabled=False, disabled=True),
     ProviderEntry(provider="google", model="long", enabled=False, disabled=True),
@@ -110,6 +111,8 @@ DEFAULT_TTS_MATRIX: list[ProviderEntry] = [
     ProviderEntry(provider="rime", model="arcana", voice="luna", enabled=True),
     ProviderEntry(provider="rime", model="mistv3", voice="luna", enabled=True),
     ProviderEntry(provider="rime", model="mistv2", voice="luna", enabled=False, disabled=True),
+    # xAI — added 2026: WebSocket streaming, eve voice (default).
+    ProviderEntry(provider="xai", model="Grok", voice="eve", enabled=True),
     # Hidden from the public catalogue (`disabled=True`). Never executed.
     ProviderEntry(
         provider="hume", model="octave-tts", voice="male_01", enabled=False, disabled=True

@@ -19,6 +19,7 @@ export const modelDisplayNames: Record<string, string> = {
   scribe_v2_realtime: "Scribe v2",
   "universal-streaming": "Universal Streaming",
   default: "Default",
+  Grok: "Grok",
   enhanced: "Enhanced"
 };
 
@@ -27,7 +28,8 @@ export const sttProviderNames: Record<string, string> = {
   deepgram: "Deepgram",
   elevenlabs: "ElevenLabs",
   gradium: "Gradium",
-  speechmatics: "Speechmatics"
+  speechmatics: "Speechmatics",
+  xai: "xAI"
 };
 
 export const ttsProviderNames: Record<string, string> = {
@@ -37,5 +39,6 @@ export const ttsProviderNames: Record<string, string> = {
   gradium: "Gradium",
   hume: "Hume",
   openai: "OpenAI",
-  rime: "Rime"
+  rime: "Rime",
+  xai: "xAI"
 };
